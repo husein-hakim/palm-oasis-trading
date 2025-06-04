@@ -310,6 +310,7 @@ body {
 
 .slideshow-container {
 	position: relative;
+	width: 100%;
 	height: 100vh;
 	overflow: hidden;
 	margin-top: 0;
@@ -323,7 +324,7 @@ body {
 	height: 100%;
 	background-size: cover;
 	background-position: center;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat !important;
 	opacity: 0;
 	transition: opacity 1.5s ease-in-out;
 }
@@ -335,22 +336,22 @@ body {
 /* Placeholder images - replace with your actual images */
 .slide-1 {
 	/* background: url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2071&q=80'); */
-	background: url('hero/1.jpg');
+	background: var(--steel-grey-light) url('hero/1.jpg') center center no-repeat;
 }
 
 .slide-2 {
 	/* background: url('federica-abbinante-kr0HeEPdtE0-unsplash.jpg'); */
-	background: url('hero/2.jpg');
+	background: var(--steel-grey-light) url('hero/2.jpg') center center no-repeat;
 }
 
 .slide-3 {
 	/* background: url('https://plus.unsplash.com/premium_photo-1661962354301-20a525f67468?&auto=format&fit=crop&w=1600&q=80&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dHJ1Y2slMjB3aXRoJTIwdGltYmVyfGVufDB8fDB8fHww'); */
-	background: url('hero/3.jpg');
+	background: var(--steel-grey-light) url('hero/3.jpg') center center no-repeat;
 }
 
 .slide-4 {
 	/* background: url('https://plus.unsplash.com/premium_photo-1661962354301-20a525f67468?&auto=format&fit=crop&w=1600&q=80&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dHJ1Y2slMjB3aXRoJTIwdGltYmVyfGVufDB8fDB8fHww'); */
-	background: url('hero/4.jpg');
+	background: var(--steel-grey-light) url('hero/4.jpg') center center no-repeat;
 }
 
 /* Slide Content Overlay */
